@@ -1,0 +1,80 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.links a, .desc {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 72px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 64px;
+}
+
+.desc {
+    margin: 8px 0;
+}
+
+
+.top .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8 ;
+    margin: 8px 0;
+}
+
+.top button {
+    width: 100px;
+    height: 32px;
+    border-radius: 12px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    margin: 8px 0;   
+}
+
+.top .image {
+    padding: 80px;
+    color: #f9faf8;
+    background-color: lightgray;
+    border: 2px white;
+}
