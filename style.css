@@ -17,6 +17,16 @@ body {
     margin: 0px
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 36px;
+    font-weight: lighter;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -41,7 +51,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    padding: 72px;
+    padding:56px;
 }
 
 .presentation {
@@ -66,15 +76,119 @@ ul {
 .top button {
     width: 100px;
     height: 32px;
-    border-radius: 12px;
+    border-radius: 8px;
     color: #f9faf8;
     background-color: #3882f6;
     margin: 8px 0;   
+    font-size: 16px;
+    border-style: none;
 }
 
 .top .image {
-    padding: 80px;
+    padding: 100px;
     color: #f9faf8;
     background-color: lightgray;
     border: 2px white;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    padding-bottom: 64px;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 24px;
+}
+
+.box {
+    border: 5px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.allitems {
+    display: flex;
+    padding: 0 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    text-align: center;
+    font-size: 18px;
+    padding: 8px;
+    color: grey;
+}
+
+.quote-area {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 300px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+    text-align: left;
+    padding: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    text-align: right;
+    font-weight: bold;
+}
+
+.bottom {
+    padding: 48px;
+    margin: 96px 196px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.recall {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 300;
+}
+
+.bottom button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 4px 32px;
+    font-size: 18px;
 }
